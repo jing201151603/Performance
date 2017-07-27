@@ -28,6 +28,7 @@ add_library( compress_utils
              SHARED
              src/main/cpp/compress_utils.cpp)
 
+#添加ljnigraphics库
 target_link_libraries(compress_utils log android -ljnigraphics)
 
 

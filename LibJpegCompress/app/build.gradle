@@ -16,8 +16,6 @@ android {
             }
             ndk{
                 abiFilters "armeabi"
-                ldLibs "log"
-                ldLibs "jnigraphics"//新增
             }
         }
     }
